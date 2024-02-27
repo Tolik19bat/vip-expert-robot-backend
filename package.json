@@ -1,0 +1,28 @@
+{
+  "name": "vip-backend",
+  "version": "1.0.0",
+  "description": "task",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tolik19bat/vip-expert-robot-backend.git"
+  },
+  "author": "Anatoly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tolik19bat/vip-expert-robot-backend/issues"
+  },
+  "homepage": "https://github.com/Tolik19bat/vip-expert-robot-backend#readme",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=16.0.0 <19.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "body-parser": "1.20.2",
+    "cors": "2.8.5",
+    "express": "4.18.2"
+  }
+}
